@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        #form {
+            height: 100vh;
+            width: 100%;
+            background-color: #fff;
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto 80px;
+            padding: 20px;
+            column-gap: 15px;
+        }
+
+        .form-div {
+            display: block;
+            text-align: start;
+            grid-column: 1;
+            grid-row: 1 / 3;
+        }
+
+        .form-div h1 {
+            font-size: 1.8rem;
+        }
+
+        .form-div p {
+            font-size: 1.2rem;
+        }
+        .form-container {
+            background-color: #C8C8C8;
+            border-radius: 10px;
+            height: 100%;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .setting-div {
+            display: block;
+            text-align: end;
+            grid-column: 2;
+            grid-row: 1 / span 3;
+        }
+
+        .setting-container {
+            background-color: #C8C8C8;
+            margin-top: 20px;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <section id="form">
+        <div class="form-div">
+            <h1>Formulário</h1>
+            <p>Preencha os dados antes de iniciar</p>
+            <div class="form-container">
+                <form action="">
+
+                </form>
+            </div>
+        </div>
+        <!-- Div do formulário -->
+        
+        <div class="setting-div">
+            <div class="label-black">
+                <h2>Configurações</h2>
+            </div>
+            <div class="setting-container">
+
+            </div>
+        </div>
+        <!-- Div de configuração -->
+        
+    </section>
+</body>
+</html>

@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3f4f6;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+button[type="submit"] {
+    width: 100%;
+}
+
+.container-form, .container-config {
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.container-form h1, .container-config h1 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333333;
+}
+
+p {
+    margin-bottom: 15px;
+    color: #555555;
+}
+
+.form-check-label {
+    font-size: 0.95rem;
+    color: #555555;
+}
